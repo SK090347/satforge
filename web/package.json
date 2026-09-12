@@ -1,0 +1,14 @@
+{
+  "name": "satforge-web",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Minimal CNF playground for satforge (TypeScript DPLL in-browser)",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "check": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.0"
+  },
+  "type": "module"
+}

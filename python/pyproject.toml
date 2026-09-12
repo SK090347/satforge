@@ -1,0 +1,15 @@
+[project]
+name = "satforge"
+version = "0.1.0"
+description = "Python harness for the satforge CDCL SAT solver"
+readme = "../README.md"
+requires-python = ">=3.9"
+authors = [{ name = "Sumit Kumar Ta", email = "SK090347@users.noreply.github.com" }]
+license = { text = "MIT OR Apache-2.0" }
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
