@@ -1,5 +1,7 @@
 # satforge
 
+
+**Live demo:** https://sk090347.github.io/satforge/
 Educational CDCL SAT solver. The serious engine is C++17 (watched literals, 1-UIP learning, VSIDS-ish branching); Python drives fixtures via the CLI; there’s a tiny TypeScript DPLL playground for demos in the browser.
 
 [![CI](https://github.com/SK090347/satforge/actions/workflows/ci.yml/badge.svg)](https://github.com/SK090347/satforge/actions/workflows/ci.yml)
